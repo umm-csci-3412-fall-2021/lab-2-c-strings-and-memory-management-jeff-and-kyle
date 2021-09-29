@@ -48,7 +48,7 @@ char *disemvowel(char *str) {
   for(int i=0; i<len; ++i){
   	if(!isVowel(str[i])){
 		str_no_const[j] = str[i];
-		j++;
+		++j;
 	}
   }
   
